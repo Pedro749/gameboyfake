@@ -32,7 +32,7 @@ const buttonsFetch = (button) => {
   if (buttonsAllowed.includes(button)) {
 
     const URL = "https://toy.aoaoao.me/control";
-    fetch(URL+'?button='+button+'&callback=https://github.com/Giingu', {
+    fetch(URL+'?button='+button+'&callback=https://github.com/pedro749', {
       method: "GET",
       mode: 'no-cors'
     });

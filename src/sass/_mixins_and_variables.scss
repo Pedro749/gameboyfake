@@ -1,0 +1,30 @@
+// Variables
+$vermelho-claro: #9b2257;
+$cinza-claro: #e4e3e3;
+$cinza-medio: #737489;
+$cinza-medio: #737489;
+$cinza-escuro: #050d11;
+
+// Sizes
+$lg-device: 1200px;
+$md-device: 760px;
+$sm-device: 480px; 
+
+// Mixin de media-querie
+@mixin device($size) {
+  @if $size == large {
+      @media screen and (min-width: $lg-device) {
+          @content;
+      }
+  }
+  @else if $size == medium {
+      @media screen and (min-width: $md-device) and (max-width: #{$lg-device - 1}) {
+          @content;
+      }
+  }
+  @else if $size == small {
+      @media screen and (max-width: #{$md-device - 1}) {
+          @content;
+      }
+  }
+}

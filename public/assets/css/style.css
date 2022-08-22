@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.controls {
+  display: flex;
+}
+
+.gameboy {
+  background-color: #e4e3e3;
+  width: 28vw;
+  height: 75vh;
+  border-radius: 4px 4px 20% 4px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+@media screen and (max-width: 759px) {
+  .gameboy {
+    width: 90vw;
+    padding-bottom: 0em;
+  }
+}
+
+.display {
+  margin: 0 auto;
+  background-color: #737489;
+  padding: 1.5em 0;
+  width: 24vw;
+  border-radius: 4px 4px 15% 4px;
+}
+.display img {
+  text-align: center;
+  height: 250px;
+}
+@media screen and (max-width: 759px) {
+  .display {
+    width: 84vw;
+  }
+}
+
+.dpad {
+  flex-wrap: wrap;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 1.5em;
+  margin-top: 2em;
+}
+.dpad div {
+  width: 2em;
+  height: 1.5em;
+  margin: 2px;
+  color: aliceblue;
+  background-color: #050d11;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.5);
+}
+.dpad .dpad__left {
+  position: absolute;
+  left: 0em;
+  top: 2em;
+}
+.dpad .dpad__right {
+  position: absolute;
+  top: 2em;
+  left: 3.5em;
+}
+.dpad .dpad__up {
+  height: 2em;
+  width: 1.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+}
+.dpad .dpad__down {
+  height: 2em;
+  width: 1.5em;
+  position: absolute;
+  top: 3.5em;
+  left: 2em;
+}
+
+.commands {
+  width: 110px;
+  margin-top: 8em;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.commands div {
+  margin-top: 1em;
+  transform: rotate(-45deg);
+  width: 45px;
+  border-radius: 5px;
+  height: 15px;
+  background-color: #050d11;
+}
+.commands span {
+  display: inline-block;
+  margin-left: -25px;
+  margin-top: 25px;
+  transform: rotate(-45deg);
+}
+
+.buttons {
+  width: 100px;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-top: 2em;
+  height: 100px;
+}
+.buttons div {
+  width: 40px;
+  height: 40px;
+  background-color: #9b2257;
+  border-radius: 50%;
+}
+.buttons .buttons__buttonB {
+  background-color: blue;
+  margin-left: 0.1em;
+  margin-top: -1em;
+  position: relative;
+}
+.buttons .buttons__buttonB + span {
+  display: inline-block;
+  margin-left: -35px;
+  margin-top: 2px;
+}
+.buttons .buttons__buttonA {
+  margin-left: 3.7em;
+}
+.buttons .buttons__buttonA + span {
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */

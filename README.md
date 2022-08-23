@@ -22,7 +22,7 @@ This is a project made in SASS to test your knowledge of the language and it is 
 ![image](https://user-images.githubusercontent.com/69980288/186041333-b903d8a6-d282-46a8-8e77-e93718dc1488.png)
 
 
-Credits for a Emulator
+Emulator credits:
 
 
-### https://github.com/HFO4
+#### https://github.com/HFO4

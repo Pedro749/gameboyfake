@@ -60,6 +60,7 @@
   position: relative;
   border-radius: 2px;
   box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 .dpad .dpad__left {
   position: absolute;
@@ -101,6 +102,7 @@
   height: 15px;
   background-color: #050d11;
   box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 .commands span {
   display: inline-block;
@@ -122,6 +124,7 @@
   background-color: #9b2257;
   border-radius: 50%;
   box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 .buttons .buttons__buttonB {
   box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.5);

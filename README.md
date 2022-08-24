@@ -19,4 +19,10 @@ This is a project made in SASS to test your knowledge of the language and it is 
 - [SASS](https://sass-lang.com/) - CSS Preprocessor
 
 ## Demo
-![image](https://user-images.githubusercontent.com/69980288/186040603-b31b4471-2d7a-4b94-80aa-546130b94114.png)
+![image](https://user-images.githubusercontent.com/69980288/186041333-b903d8a6-d282-46a8-8e77-e93718dc1488.png)
+
+
+Emulator credits:
+
+
+#### https://github.com/HFO4
